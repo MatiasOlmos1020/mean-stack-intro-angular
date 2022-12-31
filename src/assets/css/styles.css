@@ -1,0 +1,52 @@
+body {
+  font-family: Helvetica, Arial;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+  text-decoration: none;
+  list-style: none;
+}
+
+#content {
+  width: 80%;
+  min-height: 500px;
+  margin: 0px auto;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ddd;
+  background-color: #eee;
+}
+
+header {
+  width: 100%;
+  padding: 15px;
+  background-color: #229138;
+  min-height: 90px;
+}
+
+header .title-subtitle {
+  float: left;
+}
+
+header h1,
+header p {
+  margin: 0px;
+  margin-left: 15px;
+  color: white;
+}
+
+header #logo {
+  display: block;
+  float: left;
+  width: 55px;
+  margin-left: 13px;
+}
+
+footer {
+  width: 80%;
+  margin: 0px auto;
+  padding-top: 10px;
+}
